@@ -71,8 +71,8 @@ Para compilar cada código é necessário digitar os seguintes comandos no termi
   1. Exibe o menu inicial.
   2. Se o usuário escolhe entrar no chat, ele fornece um nome que é enviado ao servidor.
   3. Em um loop, o cliente:
-    - Recebe mensagens do servidor e as exibe.
-    - Lê a mensagem do usuário e a processa para envio.
+      - Recebe mensagens do servidor e as exibe.
+      - Lê a mensagem do usuário e a processa para envio.
       
 - A função ``menu_comandos``:
   1. Exibe uma lista de comandos disponíveis para o usuário no chat.
