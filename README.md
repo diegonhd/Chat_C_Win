@@ -7,8 +7,8 @@ A comunicação vai para além de apenas caracteres, já que os usuários são c
 
 ## Compilação
 Para compilar cada código é necessário digitar os seguintes comandos no terminal:
-``gcc -o server .\socket_server.c -lws2_32``
-``gcc -o client .\socket.client.c -lws2_32``
+-  ``gcc -o server .\socket_server.c -lws2_32``
+-  ``gcc -o client .\socket.client.c -lws2_32``
 
 ## Funcionalidade
 ### Bibliotecas importadas
