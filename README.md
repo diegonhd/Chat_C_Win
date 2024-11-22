@@ -19,7 +19,7 @@ Para compilar cada código é necessário digitar os seguintes comandos no termi
   - Usa a biblioteca ``Winsock2`` (Windows Sockets) para comunicação TCP/IP. A função ``WSAStartup`` inicializa o uso de sockets, enquanto ``socket``, ``connect``, ``send``, e ``recv`` gerenciam a conexão.
 
 ### Funções auxiliares
-1.  Tópico Principal
+1.  Servidor
   - ``BroadcastMessage``: Envia uma mensagem para todos os clientes conectados, exceto um cliente especificado. Também registra as mensagens no arquivo de histórico.
   - ``EnviarHistorico``: Lê o histórico de mensagens do arquivo e envia para um cliente recém-conectado.
   - ``ApagarHistorico``: Exclui o arquivo de histórico do disco.
