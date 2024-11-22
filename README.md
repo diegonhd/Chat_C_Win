@@ -13,7 +13,7 @@ Para compilar cada código é necessário digitar os seguintes comandos no termi
 ## Funcionalidade
 ### Bibliotecas importadas
 1.  Servidor 
-  - Inclui bibliotecas para sockets (``winsock2.h``, ``ws2tcpip.h``), manipulação de arquivos (stdio.h), threads (process.h) e manipulação de console (conio.h).
+  - Inclui bibliotecas para sockets (``winsock2.h``, ``ws2tcpip.h``), manipulação de arquivos (``stdio.h``), threads (``process.h``) e manipulação de console (``conio.h``).
     
 2.  Cliente
   - Usa a biblioteca ``Winsock2`` (Windows Sockets) para comunicação TCP/IP. A função ``WSAStartup`` inicializa o uso de sockets, enquanto ``socket``, ``connect``, ``send``, e ``recv`` gerenciam a conexão.
@@ -40,14 +40,14 @@ Para compilar cada código é necessário digitar os seguintes comandos no termi
 
 ### Gerenciamento de Mensagens
 - Broadcast de Mensagens:
-  - A função BroadcastMessage envia mensagens para todos os clientes conectados, exceto um especificado (geralmente o remetente).
+  - A função ``BroadcastMessage`` envia mensagens para todos os clientes conectados, exceto um especificado (geralmente o remetente).
   - Também escreve as mensagens no arquivo de histórico.
     
 - Enviar Histórico:
-  - A função EnviarHistorico lê mensagens do arquivo de histórico e as envia para um cliente recém-conectado.
+  - A função ``EnviarHistorico`` lê mensagens do arquivo de histórico e as envia para um cliente recém-conectado.
     
 - Apagar Histórico:
-  - A função ApagarHistorico exclui o arquivo de histórico do disco.
+  - A função ``ApagarHistorico`` exclui o arquivo de histórico do disco.
     
 ## Funções essenciais do Servidor
 - A função ``configuracaoServidor`` inicializa o socket do servidor:
